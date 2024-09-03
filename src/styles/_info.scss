@@ -1,0 +1,107 @@
+.info {
+    &__wrap {
+        width: 112rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+    }
+
+    &__group {
+        width: 112rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    &__title {
+        width: 112rem;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        display: block;
+        text-align: left;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        display: block;
+        margin-bottom: .5rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: left;
+        text-transform: lowercase;
+    }
+
+    &__list {
+        display: block;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__item {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background-color: #1C1C1C;
+            position: absolute;
+            top: .5rem;
+            left: -2rem;
+        }
+    }
+
+    &__subtitle {
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__btn {
+        width: 21.2rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+        padding-top: 1rem;
+        padding-bottom: 1.1rem;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 30px;
+        background-color: #fff;
+        border-radius: 30px;
+        border: 1px solid #6A6A6A;
+        text-align: center;
+        text-decoration: none;
+    }
+}
